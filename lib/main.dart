@@ -1,4 +1,4 @@
-import 'package:alvative_test/views/payment_page.dart';
+import 'package:alvative_test/views/payment_plan.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Alvative Test',
-      home: PaymentPage(),
+      home: PaymentPlan(),
     );
   }
 }
